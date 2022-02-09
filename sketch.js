@@ -151,27 +151,27 @@ function draw() {
   //r
   noStroke();
   fill(bgColor);
-  rect(50 + a, 250, 150, 25);
+  rect(50 + b, 250, 150, 25);
   
   //r
   noStroke();
   fill(bgColor);
-  rect(100 + c, c, 45, 90);
+  rect(100 + a, 100, 45, 90);
   
   //r
   noStroke();
   fill(bgColor);
-  rect(200 + e, 450, 25, 80);
+  rect(200 + c, 450, 25, 80);
   
   //r
   noStroke();
   fill(bgColor);
-  rect(25 + d, a, 55, 75);
+  rect(25 + d, 60, 55, 75);
   
   //r
   noStroke();
   fill(bgColor);
-  rect(80 + c, a + c , 25, 25);
+  rect(80 + e, a + 90 , 25, 25);
 
 }
 
