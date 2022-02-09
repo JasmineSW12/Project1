@@ -61,9 +61,9 @@ function draw() {
   fill(206, 167, 222);
   rect(c, e, 50, 20);
   
-  // for x and y  and random postions
+ // for x and y  and random postions
   
-  a = a - 10;
+  a = a - 0.5;
   if (a < 0) {
     a = height;
   }
@@ -73,12 +73,12 @@ function draw() {
     b = height;
   }
   
-  c = c + 5; 
+  c = c + 0.5; 
     if (c < 0) {
       c = height;
   }
   
-  d = d + 3;
+  d = d + 1;
   if (d < 0) {
     d = height;
   }
