@@ -146,13 +146,39 @@ function draw() {
   fill(147, 8, 255);
   rect(b + d, a + c , 25, 25);
 
+ //mix of random colors 
+  
+  //r
+  noStroke();
+  fill(bgColor);
+  rect(50 + a, 250, 150, 25);
+  
+  //r
+  noStroke();
+  fill(bgColor);
+  rect(100 + c, c, 45, 90);
+  
+  //r
+  noStroke();
+  fill(bgColor);
+  rect(200 + e, 450, 25, 80);
+  
+  //r
+  noStroke();
+  fill(bgColor);
+  rect(25 + d, a, 55, 75);
+  
+  //r
+  noStroke();
+  fill(bgColor);
+  rect(80 + c, a + c , 25, 25);
 
 }
 
 function mousePressed(){
 //Generates random colors in rgb
 
-  bgColor = color( random(255), random(255), random(255) );
+  bgColor = color( random(0, 255), random(0, 255), random(0, 255) );
    
 
 }
