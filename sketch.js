@@ -24,7 +24,7 @@ bgColor= color( random(255), random(255), random(255) );
   
    e = 200;
 
-   window.alert('Press mouse on screen to randomly change background color!');
+   window.alert('Press mouse on screen to randomly change the background color!');
 }
  
 
