@@ -24,7 +24,7 @@ bgColor= color( random(255), random(255), random(255) );
   
    e = 200;
 
-   window.alert('Press mouse on screen to randomly change the background color!');
+   window.alert('Press mouse on screen to randomly change the background color and rectangle colors!');
 }
  
 
@@ -171,7 +171,7 @@ function draw() {
   //r
   noStroke();
   fill(bgColor);
-  rect(80 + e, a + 90 , 25, 25);
+  rect(80 + e, 100 + 90 , 25, 25);
 
 }
 
